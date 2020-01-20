@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulário Bootstrap</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <h1>
+                Cadastro de Usuários
+            </h1>
+        </div>
+        <!-- Formulário -->
+        <form>
+            <!-- nome -->
+            <div class="form-row">
+                <div class="col-2 my-2">
+                    <label>Nome</label>
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="nome do usuário">
+                </div>
+            </div>
+            <!-- endereço -->
+            <div class="form-row">
+                <div class="col-2 my-2">
+                    <label>Endereço</label>
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="endereço">
+                </div>
+            </div>
+            <div class="form-row">
+                <!-- complemento -->
+                <div class="col-2 my-2">
+                    <label>Complemento</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" placeholder="complemento de endereço">
+                </div>
+                <!-- cidade -->
+                <div class="col-1 my-2">
+                    <label>Cidade</label>
+                </div>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" placeholder="Cidade">
+                </div>
+            </div>
+            <div class="form-row">
+                <!-- seletor estado -->
+                <div class="col-2">
+                    <label class="mr-sm-2 my-2">Estado</label>
+                </div>
+                <div class="col-4 my-2">
+                    <select class="custom-select mr-sm-2">
+                        <option value="ac">AC</option>
+                        <option value="al">AL</option>
+                        <option value="ap">AM</option>
+                        <option value="ap">BA</option>
+                        <option value="ap">CE</option>
+                        <option value="ap">DF</option>
+                        <option value="ap">ES</option>
+                        <option value="ap">GO</option>
+                        <option value="ap">MA</option>
+                        <option value="ap">MT</option>
+                        <option value="ap">MS</option>
+                        <option value="ap">MG</option>
+                        <option value="ap">PA</option>
+                        <option value="ap">PB</option>
+                        <option value="ap">PR</option>
+                        <option value="ap">PE</option>
+                        <option value="ap">PI</option>
+                        <option value="ap">RJ</option>
+                        <option value="ap">RN</option>
+                        <option value="ap">RS</option>
+                        <option value="ap">RO</option>
+                        <option value="ap">RR</option>
+                        <option value="ap">SC</option>
+                        <option value="ap">SP</option>
+                        <option value="ap">SE</option>
+                        <option value="ap">TO</option>
+                    </select>
+                </div>
+                <!-- cep -->
+                <div class="col-1 my-2">
+                    <label>CEP</label>
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="form-control" placeholder="CEP">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
