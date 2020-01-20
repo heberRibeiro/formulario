@@ -23,8 +23,7 @@
                     <label>Nome</label>
                 </div>
                 <div class="col-sm">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="nome do usuário">
+                    <input type="text" class="form-control" placeholder="nome do usuário">
                 </div>
             </div>
             <!-- endereço -->
@@ -53,6 +52,7 @@
                 </div>
             </div>
             <div class="form-row">
+
                 <!-- seletor estado -->
                 <div class="col-2">
                     <label class="mr-sm-2 my-2">Estado</label>
@@ -94,6 +94,29 @@
                 <div class="col-sm">
                     <input type="number" class="form-control" placeholder="CEP">
                 </div>
+            </div>
+            <!-- interesses -->
+            <div class="form-row col-sm-6 my-2">
+                <select class="custom-select" multiple size="3">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Inteligência Artificial</option>
+                    <option value="2">Datawarehouse & Datamining</option>
+                    <option value="3">Rede de Computadores</option>
+                </select>
+            </div>
+            <!-- observações -->
+            <div class="form-row">
+                <div class="col-2 my-2">
+                    <label>Observações</label>
+                </div>
+                <div class="col-sm my-2">
+                    <input type="text" class="form-control" placeholder="Texto livre" style="height: 120px;">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-secondary border mx-1">ok</button>
+                <button type="button" class="btn btn-secondary border">cancelar</button>
             </div>
         </form>
     </div>
